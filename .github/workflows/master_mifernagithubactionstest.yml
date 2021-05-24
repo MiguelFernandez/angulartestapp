@@ -52,4 +52,4 @@ jobs:
         app-name: 'mifernagithubactionstest'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_9f112368a1b449cc91ca2aff96d14fac }}
-        package: .
+        package: ./dist
